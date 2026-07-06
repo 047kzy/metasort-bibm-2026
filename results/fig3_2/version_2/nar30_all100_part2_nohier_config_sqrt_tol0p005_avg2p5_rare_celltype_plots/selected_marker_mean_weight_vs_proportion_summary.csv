@@ -1,0 +1,5 @@
+dataset,tissue,cell_type,panel_label,n,mean_truth_proportion,mean_marker_weight,pearson_r,spearman_r,stat_label
+CELlxGENE,Basal_Zone_Of_Heart,vein_endothelial_cell,"CELlxGENE, Basal Zone Of Heart
+vein endothelial cell",100,0.03039720919001748,11.188457376180777,-0.25096188291171295,-0.2676572888977823,n=100; Pearson r=-0.25; Spearman r=-0.27
+Tabula-Sapiens,Skin,CD1c_positive_myeloid_dendritic_cell,"Tabula-Sapiens, Skin
+CD1c positive myeloid dendritic cell",100,0.04066280149281971,12.073900162347728,-0.5995764451476185,-0.5958113308855737,n=100; Pearson r=-0.60; Spearman r=-0.60

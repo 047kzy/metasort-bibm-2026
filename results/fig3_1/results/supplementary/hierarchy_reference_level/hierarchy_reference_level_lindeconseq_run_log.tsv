@@ -1,0 +1,7 @@
+tissue	level	method	status	rows	cols	seconds	error
+Salivary_Gland	L1	LinDeconSeq	OK	30	7	1.819	
+Salivary_Gland	L2	LinDeconSeq	OK	30	7	0.798	
+Salivary_Gland	leaf	LinDeconSeq	OK	30	10	1.547	
+Thymus	L1	LinDeconSeq	OK	30	6	0.648	
+Thymus	L2	LinDeconSeq	OK	30	6	0.648	
+Thymus	leaf	LinDeconSeq	OK	30	9	1.245	

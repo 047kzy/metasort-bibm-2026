@@ -1,0 +1,3 @@
+dataset,tissue,cell_type,plot_title,file_stem,n,mean_truth_proportion,mean_marker_weight,pearson_r,stat_label
+CELlxGENE,Basal_Zone_Of_Heart,vein_endothelial_cell,Heart: vein endothelial cell,heart_vein_endothelial_marker_mean_weight_vs_proportion_nonzero_bibm,90,0.0337746768777972,11.168182654642356,-0.29975383127913835,Pearson r = -0.30
+Tabula-Sapiens,Skin,CD1c_positive_myeloid_dendritic_cell,Skin: CD1c+ myeloid DC,skin_cd1c_myeloid_marker_mean_weight_vs_proportion_nonzero_bibm,95,0.042802948939810216,12.015908187328554,-0.570310127575469,Pearson r = -0.57

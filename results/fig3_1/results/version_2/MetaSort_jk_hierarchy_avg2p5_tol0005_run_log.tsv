@@ -1,0 +1,3 @@
+tissue	method	status	rows	cols	seconds	error
+Salivary_Gland	MetaSort_jk_hierarchy_avg2p5_tol0005	OK	30	10	745.292	
+Thymus	MetaSort_jk_hierarchy_avg2p5_tol0005	OK	30	9	1326.934	

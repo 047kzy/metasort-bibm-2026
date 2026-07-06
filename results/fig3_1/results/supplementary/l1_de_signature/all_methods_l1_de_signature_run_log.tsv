@@ -1,0 +1,11 @@
+tissue	level	method	status	rows	cols	seconds	error
+Salivary_Gland	L1	NNLS	OK	30	7	0.037	
+Salivary_Gland	L1	DWLS	OK	30	7	0.025	
+Salivary_Gland	L1	MuSic	OK	30	7	0.692	
+Salivary_Gland	L1	HiDecon	OK	30	7	0.022	
+Salivary_Gland	L1	BayesPrism	OK	30	7	0.022	
+Thymus	L1	NNLS	OK	30	6	0.02	
+Thymus	L1	DWLS	OK	30	6	0.02	
+Thymus	L1	MuSic	OK	30	6	0.55	
+Thymus	L1	HiDecon	OK	30	6	0.019	
+Thymus	L1	BayesPrism	OK	30	6	0.019	

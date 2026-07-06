@@ -1,0 +1,70 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "Endothelial lineage",
+      "children": [
+        {
+          "name": "endothelial_cell"
+        },
+        {
+          "name": "endothelial_cell_of_lymphatic_vessel"
+        }
+      ]
+    },
+    {
+      "name": "Fibroblast lineage",
+      "children": [
+        {
+          "name": "fibroblast"
+        },
+        {
+          "name": "adventitial_cell"
+        }
+      ]
+    },
+    {
+      "name": "Luminal secretory epithelium",
+      "children": [
+        {
+          "name": "acinar_cell_of_salivary_gland"
+        },
+        {
+          "name": "duct_epithelial_cell"
+        }
+      ]
+    },
+    {
+      "name": "basal_cell",
+      "children": [
+        {
+          "name": "basal_cell"
+        }
+      ]
+    },
+    {
+      "name": "pericyte_cell",
+      "children": [
+        {
+          "name": "pericyte_cell"
+        }
+      ]
+    },
+    {
+      "name": "monocyte",
+      "children": [
+        {
+          "name": "monocyte"
+        }
+      ]
+    },
+    {
+      "name": "mature_NK_T_cell",
+      "children": [
+        {
+          "name": "mature_NK_T_cell"
+        }
+      ]
+    }
+  ]
+}

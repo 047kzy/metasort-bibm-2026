@@ -1,0 +1,31 @@
+{
+  "base_dir": "results/fig3_1",
+  "output_dir": "results/fig3_1/metasort_original_weight_de_analysis",
+  "tissues": [
+    "Salivary_Gland",
+    "Thymus"
+  ],
+  "methods": [
+    "MetaSort_jk",
+    "MetaSort_jk_hierarchy"
+  ],
+  "de_test": "one-vs-rest Mann-Whitney U, normal approximation with tie correction, one-sided inside > outside",
+  "thresholds": {
+    "max_fdr": 0.05,
+    "min_log2fc": 1.0,
+    "min_pct_in": 0.1,
+    "pseudocount": 0.1
+  },
+  "weight_baseline": 10.0,
+  "outputs": [
+    "celltype_de_all_genes.tsv.gz",
+    "celltype_de_genes.tsv.gz",
+    "celltype_top50_de_genes.tsv",
+    "metasort_gene_weights_long.tsv.gz",
+    "metasort_gene_weight_summary_by_gene.tsv.gz",
+    "celltype_de_with_weight_summary.tsv.gz",
+    "celltype_de_weight_distribution_summary.tsv",
+    "de_gene_weights_long.tsv.gz",
+    "plots/"
+  ]
+}

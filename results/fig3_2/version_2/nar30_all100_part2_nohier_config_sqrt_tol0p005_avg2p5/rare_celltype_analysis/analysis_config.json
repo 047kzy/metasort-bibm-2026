@@ -1,0 +1,17 @@
+{
+  "data_root": "data/benchmark_inputs",
+  "metasort_output_dir": "code/outputs/nar30_all100_part2_nohier_config_sqrt_tol0p005_avg2p5",
+  "rare_threshold": 0.05,
+  "min_rare_mixtures": 5,
+  "methods": [
+    "NNLS",
+    "DWLS",
+    "HiDecon",
+    "LinDeconSeq",
+    "MuSic",
+    "bayesprism",
+    "MetaSort_jk"
+  ],
+  "winner_metric_rare_observation": "mean absolute error over 0 < truth < threshold",
+  "winner_metric_low_mean_celltype": "mean absolute error over all common mixtures"
+}

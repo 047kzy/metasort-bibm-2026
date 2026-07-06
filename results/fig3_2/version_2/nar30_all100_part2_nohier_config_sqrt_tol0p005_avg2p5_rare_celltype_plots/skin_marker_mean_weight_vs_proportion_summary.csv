@@ -1,0 +1,2 @@
+dataset,tissue,cell_type,panel_label,n,mean_truth_proportion,mean_marker_weight,pearson_r,stat_label
+Tabula-Sapiens,Skin,CD1c_positive_myeloid_dendritic_cell,Skin: CD1c-positive myeloid dendritic cell,100,0.04066280149281971,12.073900162347728,-0.5995764451476185,Pearson r = -0.60
