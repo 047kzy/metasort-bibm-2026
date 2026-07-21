@@ -1,0 +1,6 @@
+dataset,tissue,mixture,method,cell_type,truth,prediction,abs_error
+Tabula-Sapiens,Tongue,Mixture10,MuSiC,leukocyte,0.44,0.45231132712769,0.012311327127690008
+Tabula-Sapiens,Tongue,Mixture10,MuSiC,fibroblast,0.0,0.00977431885639988,0.00977431885639988
+Tabula-Sapiens,Tongue,Mixture10,MuSiC,vein_endothelial_cell,0.284,0.294706749375103,0.01070674937510302
+Tabula-Sapiens,Tongue,Mixture10,MuSiC,pericyte_cell,0.132,0.0807647282243527,0.05123527177564731
+Tabula-Sapiens,Tongue,Mixture10,MuSiC,capillary_endothelial_cell,0.144,0.162442876416454,0.018442876416454007

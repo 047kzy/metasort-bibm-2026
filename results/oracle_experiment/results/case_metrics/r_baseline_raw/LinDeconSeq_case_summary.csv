@@ -1,0 +1,2 @@
+"dataset","tissue","case","method","l1","accuracy","mae","rmse","pearson","runtime_sec","mixtures"
+"Tabula-Sapiens","Tongue","Tabula-Sapiens/Tongue","LinDeconSeq",0.416603316256625,0.791698341871687,0.0833206632513251,0.106548989324766,0.869605358420121,0.225512742996216,1

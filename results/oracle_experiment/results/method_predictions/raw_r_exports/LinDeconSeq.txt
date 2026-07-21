@@ -1,0 +1,2 @@
+	leukocyte	fibroblast	vein_endothelial_cell	pericyte_cell	capillary_endothelial_cell
+Mixture10	0.433847837432529	0.0221478615327934	0.470153796595519	0.00695012457407716	0.0669003798650814

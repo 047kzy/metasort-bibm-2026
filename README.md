@@ -1,57 +1,74 @@
 # MetaSort Anonymous Review Artifact
 
-This repository contains the anonymous code, retained result tables, figure
-source data, and reproducibility wrappers for the BIBM submission. It is
-organized to follow the Results section of the manuscript.
+This repository contains the anonymous MetaSort implementation and the
+retained data, scripts, and figures used for the BIBM submission.
 
-## Contents
+## Repository layout
 
-- `code/`: MetaSort source code, benchmark wrappers, plotting scripts, hierarchy
-  files, and Python requirements.
-- `results/fig2/`: Tongue mixture curvature and iterative optimization case.
-- `results/fig3_1/`: Salivary Gland and Thymus hierarchy-aware benchmark.
-- `results/fig3_2/`: rare-cell-type and marker-weight analyses for Figure 3.
-- `results/fig4/`: `bulk_TSP14__reference_TSP10` expression-profile and
-  reference-recovery analysis results.
-- `MANUSCRIPT_RESULTS_MAP.md`: statement-to-file map for the Results section.
-
-## Minimal Python Setup
-
-From the repository root:
-
-```bash
-python -m pip install -r code/requirements.txt
+```text
+.
+├── metasort/                  # Core Python package
+├── requirements.txt           # Core Python dependencies
+├── scripts/baselines/         # Shared non-MetaSort method runners
+└── results/
+    ├── hierarchy/             # Hierarchy-aware deconvolution benchmark
+    ├── rare_celltype/         # Rare-cell-type and marker-weight figures
+    ├── oracle_experiment/     # Selected Tongue oracle-initialization case
+    └── reference_recovery/    # Bulk-reference recovery experiment
 ```
 
-The core implementation is in `code/metasort/`. Baseline wrappers for external
-methods are retained under `code/scripts/` and `results/*/scripts/`, but those
-methods require their own R/Python package environments.
+Each result module has a short README describing its retained inputs, outputs,
+dependencies, and optional upstream reruns. Paths and commands below are
+relative to the repository root.
 
-## Reproducibility Notes
+## Setup
 
-The repository keeps the exact wrapper scripts, parameters, summary tables, and
-figure outputs used for the manuscript. Full benchmark input data will be
-provided separately. Paths such as `<H5AD_DATA_ROOT>` and `<CONDA_ROOT>` are
-anonymous placeholders for optional raw h5ad files and local software
-environments that are not required for inspecting the retained result files.
+Install the Python dependencies used by the core package and most plotting
+workflows:
 
-For review, the directly inspectable material is:
+```bash
+python -m pip install -r requirements.txt
+```
 
-- final and intermediate result tables in `results/fig*/`;
-- figure source data CSV/TSV files in each figure directory;
-- plotting scripts used to regenerate retained figures;
-- MetaSort source code and benchmark wrappers in `code/`.
+The hierarchy and rare-cell-type modules also use R. Their module READMEs list
+the required R packages and external benchmark-method dependencies.
 
-## Directory Mapping
+## Reproduce the retained figures
 
-The current artifact uses figure-based names:
+Hierarchy benchmark:
 
-- `fig2`: curvature-guided optimization in the Tongue mixture case;
-- `fig3_1`: hierarchy-aware deconvolution for Salivary Gland and Thymus;
-- `fig3_2`: rare-cell-type recovery and marker-weight trends;
-- `fig4`: `bulk_TSP14__reference_TSP10` expression-profile and reference-recovery
-  analysis.
+```bash
+Rscript results/hierarchy/scripts/build_figure_metrics.R
+Rscript results/hierarchy/scripts/plot_accuracy_boxplots.R
+```
 
-No original Git history, personal remote URL, notebook execution output, local
-cache files, or author-identifying account metadata is included in this review
-artifact.
+Rare-cell-type analysis:
+
+```bash
+./results/rare_celltype/reproduce_all.sh
+```
+
+Selected Tongue oracle-initialization case:
+
+```bash
+python -m pip install -r results/oracle_experiment/requirements.txt
+python results/oracle_experiment/scripts/validate_retained_data.py
+python results/oracle_experiment/scripts/make_final_figure.py
+```
+
+Bulk-reference recovery figure:
+
+```bash
+python results/reference_recovery/scripts/generate_figure.py
+```
+
+## Result-module documentation
+
+- [`results/hierarchy/README.md`](results/hierarchy/README.md)
+- [`results/rare_celltype/README.md`](results/rare_celltype/README.md)
+- [`results/oracle_experiment/README.md`](results/oracle_experiment/README.md)
+- [`results/reference_recovery/README.md`](results/reference_recovery/README.md)
+
+The release excludes caches, notebook checkpoints, local temporary files, and
+author-specific paths. Raw inputs that cannot be redistributed are identified
+in the relevant module README.

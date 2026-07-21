@@ -1,0 +1,2 @@
+"dataset","tissue","case","mixture","mixture_index","method","n_genes","n_cell_types","l1","accuracy","mae","rmse","pearson","runtime_sec"
+"Tabula-Sapiens","Tongue","Tabula-Sapiens/Tongue","Mixture10",1,"MuSiC",20,5,0.102470543551295,0.948764728224353,0.0204941087102589,0.0257950899644482,0.987227661073017,5.64199876785278

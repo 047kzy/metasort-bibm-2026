@@ -1,0 +1,6 @@
+dataset,tissue,mixture,method,cell_type,truth,prediction,abs_error
+Tabula-Sapiens,Tongue,Mixture10,NNLS_zscore,leukocyte,0.44,0.46617311818717055,0.026173118187170552
+Tabula-Sapiens,Tongue,Mixture10,NNLS_zscore,fibroblast,0.0,0.0,0.0
+Tabula-Sapiens,Tongue,Mixture10,NNLS_zscore,vein_endothelial_cell,0.284,0.48085994572556906,0.19685994572556909
+Tabula-Sapiens,Tongue,Mixture10,NNLS_zscore,pericyte_cell,0.132,0.0,0.132
+Tabula-Sapiens,Tongue,Mixture10,NNLS_zscore,capillary_endothelial_cell,0.144,0.05296693608726039,0.0910330639127396

@@ -1,0 +1,6 @@
+dataset,tissue,mixture,method,cell_type,truth,prediction,abs_error
+Tabula-Sapiens,Tongue,Mixture10,LinDeconSeq,leukocyte,0.44,0.433847837432529,0.006152162567470976
+Tabula-Sapiens,Tongue,Mixture10,LinDeconSeq,fibroblast,0.0,0.0221478615327934,0.0221478615327934
+Tabula-Sapiens,Tongue,Mixture10,LinDeconSeq,vein_endothelial_cell,0.284,0.470153796595519,0.186153796595519
+Tabula-Sapiens,Tongue,Mixture10,LinDeconSeq,pericyte_cell,0.132,0.00695012457407716,0.12504987542592286
+Tabula-Sapiens,Tongue,Mixture10,LinDeconSeq,capillary_endothelial_cell,0.144,0.0669003798650814,0.07709962013491858

@@ -1,0 +1,2 @@
+"dataset","tissue","case","method","l1","accuracy","mae","rmse","pearson","runtime_sec","mixtures"
+"Tabula-Sapiens","Tongue","Tabula-Sapiens/Tongue","MuSiC",0.102470543551295,0.948764728224353,0.0204941087102589,0.0257950899644482,0.987227661073017,5.64199876785278,1

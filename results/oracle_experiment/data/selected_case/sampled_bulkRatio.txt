@@ -1,0 +1,6 @@
+	Mixture10
+leukocyte	0.44
+fibroblast	0.0
+vein_endothelial_cell	0.284
+pericyte_cell	0.132
+capillary_endothelial_cell	0.144

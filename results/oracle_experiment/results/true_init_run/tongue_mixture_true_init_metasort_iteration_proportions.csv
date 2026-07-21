@@ -1,0 +1,11 @@
+dataset,tissue,mixture,iteration,phase,cell_type,truth,prediction,abs_error
+Tabula-Sapiens,Tongue,Mixture10,0,initial_truth,leukocyte,0.44,0.44,0.0
+Tabula-Sapiens,Tongue,Mixture10,0,initial_truth,fibroblast,0.0,0.0,0.0
+Tabula-Sapiens,Tongue,Mixture10,0,initial_truth,vein_endothelial_cell,0.284,0.284,0.0
+Tabula-Sapiens,Tongue,Mixture10,0,initial_truth,pericyte_cell,0.132,0.132,0.0
+Tabula-Sapiens,Tongue,Mixture10,0,initial_truth,capillary_endothelial_cell,0.144,0.144,0.0
+Tabula-Sapiens,Tongue,Mixture10,1,iteration,leukocyte,0.44,0.43950115507780235,0.0004988449221976499
+Tabula-Sapiens,Tongue,Mixture10,1,iteration,fibroblast,0.0,0.0,0.0
+Tabula-Sapiens,Tongue,Mixture10,1,iteration,vein_endothelial_cell,0.284,0.2849474248037713,0.0009474248037713018
+Tabula-Sapiens,Tongue,Mixture10,1,iteration,pericyte_cell,0.132,0.12814308887847484,0.0038569111215251695
+Tabula-Sapiens,Tongue,Mixture10,1,iteration,capillary_endothelial_cell,0.144,0.1474083312399516,0.003408331239951601

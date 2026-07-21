@@ -1,0 +1,2 @@
+dataset,tissue,case,DWLS_style_raw,LinDeconSeq,MetaSort,MuSiC,NNLS_raw,NNLS_zscore,SimplexLS_raw,best_baseline_method,best_baseline_l1,metasort_l1,metasort_l1_advantage_vs_best_baseline,metasort_wins_all_baselines
+Tabula-Sapiens,Tongue,Tabula-Sapiens/Tongue,0.2870006831590683,0.416603316256625,0.0471041185215103,0.102470543551295,0.4774948307527502,0.4460661278254793,0.3655709215537152,MuSiC,0.102470543551295,0.0471041185215103,0.055366425029784706,True
