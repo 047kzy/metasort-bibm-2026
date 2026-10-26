@@ -42,5 +42,5 @@ Rscript scripts/baselines/run_hierarchy_methods.R
 ```
 
 These files preserve the experiment-layer method calls. They were not executed
-while assembling the anonymous release. Required R packages must be installed
+while assembling this release. Required R packages must be installed
 from their respective upstream projects.

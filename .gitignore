@@ -4,3 +4,8 @@ __pycache__/
 .DS_Store
 *.tmp
 *.log
+.venv/
+venv/
+.env
+.env.*
+!.env.example
