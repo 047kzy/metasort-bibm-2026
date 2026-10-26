@@ -25,6 +25,16 @@ cell-type composition, rare-cell-type estimation and marker weights, and
 reference recovery under donor mismatch. The figures below show selected
 retained experiments accompanying the paper.
 
+![Adaptive Curvature Shaping Framework of MetaSort](docs/figures/fig1.png)
+
+**Figure 1. Adaptive Curvature Shaping Framework of MetaSort.**
+(A) A directionally flat loss landscape can bias the estimated proportions away
+from the ground truth. (B) MetaSort adaptively reshapes the loss landscape and
+guides the estimate toward the ground truth. (C) The resulting well-conditioned
+landscape yields the estimate closest to the ground truth.
+
+[Download Figure 1 (PDF)](docs/figures/fig1.pdf)
+
 ## Quick start
 
 ### 1. Install dependencies
@@ -227,6 +237,7 @@ available fonts can affect the regenerated layout.
 ```text
 .
 ├── metasort/                  # Core solvers and input preprocessing
+├── docs/figures/              # Paper overview figure (PDF and PNG)
 ├── requirements.txt           # Python dependencies
 ├── scripts/baselines/         # Shared baseline method runners
 └── results/
