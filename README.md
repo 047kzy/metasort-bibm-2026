@@ -4,6 +4,9 @@
 
 BIBM short paper · Code, selected benchmark data, and reproducible results
 
+[Lab repository](https://github.com/gift-novellab/MetaSort) ·
+[Repository linked in the paper](https://github.com/047kzy/metasort-bibm-2026)
+
 [Quick start](#quick-start) · [Results](#results) · [Reproduce the figures](#reproduce-the-figures) · [Repository layout](#repository-layout)
 
 ## About the paper
@@ -40,8 +43,8 @@ landscape yields the estimate closest to the ground truth.
 ### 1. Install dependencies
 
 ```bash
-git clone https://github.com/047kzy/metasort-bibm-2026.git
-cd metasort-bibm-2026
+git clone https://github.com/gift-novellab/MetaSort.git
+cd MetaSort
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -278,5 +281,5 @@ bibliographic metadata and a paper link will be added when available.
 
 ## License
 
-A project license has not yet been specified. Third-party software and datasets
-remain subject to their respective licenses and terms.
+The project code is licensed under the [MIT License](LICENSE). Third-party
+software and datasets remain subject to their respective licenses and terms.
